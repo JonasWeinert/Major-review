@@ -28,7 +28,7 @@ embed-resources: true
 
 ### But there is a substantive `lack of insights` into
   - How these relate to and interact with each other
-  - Which factors have the strongest predictive value
+  - Differentiation between NPI & vaccines
   - LMIC specific dynamics
   - Causal links esp in LMICs
 
@@ -39,7 +39,7 @@ embed-resources: true
 
 ### Understanding the pathways of determinants of behaviour during pandemics in LMICs
 
-| Chapter | Description                                                               |
+| Chapter | Description                                                         |
 |----------------------------|--------------------------------------------------------|
 | `Lit review`     | Overview of known asssociations with behaviour formation for NPI & vaccine uptake                              |
 | `Theory testing and development`| Comparative modelling of existing frameworks and lit infoirmed extensions                                |
@@ -169,7 +169,7 @@ Government policy & enforcement: Countries with higher institutional trust exhib
 - Akaike Information Criterion (AIC) & Bayesian Information Criterion (BIC) for model comparison
 
 
-## With: Meta/MIT C19 preventative health survey
+## With: MIT C19 preventative health survey
 ### Data
 - Conducted via online surveys distributed to Facebook users globally
 - Over 100k observations across 78 countries
@@ -184,6 +184,7 @@ Government policy & enforcement: Countries with higher institutional trust exhib
 
 ### Theoretical Contribution
 - Informing more comprehensive framework of pandemic behaviour
+- Introducing nuance around different intervention types (NPIs vs vaccine)
 
 ### Policy relevance
 - Informs more efficient data collections during early phases of emergencies
@@ -207,6 +208,51 @@ Government policy & enforcement: Countries with higher institutional trust exhib
 
 ## Where: Malawi during waves 1 & 2 of C19
 ![](media/Malawitimeline.png)
+
+## How: Outcomes
+| `Outcome`              | Indicators                                        | Investigation at  | Hypothesis tests  |
+|----------------------|------------------------------------------------|------------------|------------------|
+| **`Social distancing`** | Gathering attendance; non-essential travels; Reduced Shopping | Multiple rounds  | H1, H2, H3       |
+| **`Hygiene & Mask`**    | Hand Washing; Mask Wearing                     | Single Round    | H2               |
+| **`Willingness to test`*** | Willingness to test                          | Single Round    | H1               |
+| **`Vaccine Acceptance*`** | Willingness to vaccinate                      | Single round    | H1               |
+
+*Vaccines and tests are provided for free but involve significant transaction and opportunity costs. Reddy, K.P., Fitzmaurice, K.P., Scott, J.A. et al. Clinical outcomes and cost-effectiveness of COVID-19 vaccination in South Africa. Nat Commun 12, 6238 (2021)
+
+## How: Treatments I
+
+### Economic Vulnerability Indicator
+- Constructed from factors such as:
+	- Current income
+	- Self-reported economic stability perception
+	- Economic risk perception due to the pandemic
+	- Main income source (formal vs. informal economy)
+	- Consumption quantile (based on monthly spending)
+- Operationalization methods under consideration:
+  - Inverse Probability Weighting (IPW) by Anderson
+  - Established economic vulnerability measures (e.g., Calvo & Dercon, 2005)
+  - Data-driven approach (PCA or single factor analysis)
+
+## How: Treatments II
+
+### Health Risk Perception Indicator
+- Self-reported health risk perception
+- Infection history and self-reported comorbidities
+- Recent Covid-19 symptoms
+
+### Trade-off as interaction term
+
+## How: Controlling for ...
+- Demographics (Age, gender, education, urban/rural, etc.)
+- Cultural affiliations and beliefs (religion, parties, norms, etc.)
+- HH characteristics (size, adult equiv., etc.)
+- Exposure to C19
+- Trust in institutions & conspiracy beliefs
+- Mental health
+- Macro context (policies, economic performance, etc.)
+- And some more (self-efficacy, C19 communication exposure, news consumption, etc.)
+
+
 
 
 ## How: Challenges of traditional econometric approaches I
