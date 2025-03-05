@@ -46,6 +46,11 @@ embed-resources: true
 | `Health vs. Income`    | Causal test and quantification of health vs income trade-off assumption                                                     |
 | `Peer effects`   | Testing the effect of non self-selected peer groups on behaviour                                                |
 
+::: {.notes}
+C1 & C2: Both NPI and vaccines
+C3: NPI
+:::
+
 ## Today's presentation
 - Factors associated with pandemic behaviour formation
 - Theoretical Frameworks that (don't) connect them
@@ -124,17 +129,18 @@ Government policy & enforcement: Countries with higher institutional trust exhib
 # Chapter: Comparative structural modelling to inform a theory of pandemic behaviour
 ## What: Comparing and Extending TPB & HBM
 ::: columns
-::: {.column width="35%"}
+::: {.column width="48%"}
 - Some studies used HBM `OR` TPB to analyse survey data
 - Only REFERENCE in LMIC (Looking at students in Turkey)
 - No paper integrating/ extending these in C19 in LMIC
 - No study comparing different geographical contexts
+- No comparison of NPI and vaccines
 :::
 
-::: {.column width="3%"}
+::: {.column width="4%"}
 :::
 
-::: {.column width="62%"}
+::: {.column width="48%"}
 ![](media/Screenshot%202025-03-04%20at%2021.02.23.png)
 :::
 :::
