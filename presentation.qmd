@@ -1,0 +1,266 @@
+---
+title: Understanding public health compliance in emergencies
+subtitle: An investigation of the heterogeneity and pathways of factors that shape our behaviour during public health crises in LMICs
+format: 
+  metropolis-beamer-revealjs:
+    theme: theme.scss
+    
+# header-logo: images/rstudio.png
+# header-logo-link: "https://posit.co/"
+slide-number: "c"
+author:
+  - name: Jonas Weinert
+    # orcid: 0000-0000-0000-0000
+    email: j.weinert@lse.ac.uk
+    # affiliations: Institution X
+  # - name: Author Y
+  #   orcid: 0000-0000-0000-0001
+  #   email: author.y@email.com
+  #   affiliations: Institution Y
+date: last-modified
+bibliography: references.bib
+embed-resources: true
+---
+
+## Why {background="#43464B"}
+### C19 produced **`a lot`** of research into pandemic behaviours and their determinants
+
+
+### But there is a substantive `lack of insights` into
+  - How these relate to and interact with each other
+  - Which factors have the strongest predictive value
+  - LMIC specific dynamics
+  - Causal links esp in LMICs
+
+# Outline
+
+
+## This thesis
+
+### Understanding the pathways of determinants of behaviour during pandemics in LMICs
+
+| Chapter | Description                                                               |
+|----------------------------|--------------------------------------------------------|
+| `Lit review`     | Overview of known asssociations with behaviour formation for NPI & vaccine uptake                              |
+| `Theory testing and development`| Comparative modelling of existing frameworks and lit infoirmed extensions                                |
+| `Health vs. Income`    | Causal test and quantification of health vs income trade-off assumption                                                     |
+| `Peer effects`   | Testing the effect of non self-selected peer groups on behaviour                                                |
+
+## Today's presentation
+- Factors associated with pandemic behaviour formation
+- Theoretical Frameworks that (don't) connect them
+- Comparative structural modelling to inform a theory of pandemic behaviour
+- Income vs health preservation
+- Peer effects vs self selection
+
+# Factors associated with pandemic behaviour formation
+- Financial constraints/ economic factors
+- Health risk perceptions
+- Sociological factors
+- Knowledge and Trust
+- Cultural factors
+- Institutional & political factors 
+
+
+
+## Financial constraints/ economic factors
+- `Classical economic theory` suggests that individuals make rational choices under constraints, weighing the risk of infection against economic consequences (e.g., staying home vs. working).
+- `Health capital model` (Grossman, 1972): Health is treated as an investment, with lower-income individuals discounting future health risks if avoiding them means immediate economic hardship.
+- `Prospect theory` (Kahneman & Tversky, 1979): Individuals overweight immediate economic losses, making financially insecure people more likely to work despite health risks.
+
+::: {.callout type='default'}
+## Empirical evidence 
+EG (Chetty et al., 2020; Papageorge et al., 2021) show that lower-income individuals and workers in precarious jobs were less likely to comply with lockdowns.
+:::
+
+
+## Health risk perceptions
+- `Health Belief Model` (Rosenstock, 1974): Compliance is influenced by perceived severity, susceptibility, and benefits of protective actions.
+- `Risk perception` (Slovic, 1987): Individuals facing immediate health threats (e.g., seeing loved ones infected) prioritize health over economic concerns.
+
+::: {.callout type='default'}
+## Empirical evidence 
+E.G. Bartscher et al. (2021) show local infection rates predict compliance better than economic vulnerability; Allcott et al. (2020) find greater COVID-19 information exposure leads to higher adherence.
+:::
+
+## Sociological factors
+- `Social capital theory`: Stronger community networks lead to more collective action; U.S. counties with higher social capital had lower infection rates.
+- `Social influence theory`: Individuals conform to peer behavior, sometimes overriding economic incentives, with political affiliations and community norms influencing compliance.
+
+::: {.callout type='default'}
+## Empirical evidence 
+E.G. Feelings of mutual obligation encourage compliance, with high-cohesion communities showing greater adherence to health measures (Zimmermann et al., 2022).
+:::
+
+## Knowledge and Trust
+- The `“knowledge-behavior gap”` occurs when trust and biases interfere with knowledge-driven compliance.
+- `Trust in institutions`: Compliance is higher when people trust expert sources, while peer/social media influence can sometimes outweigh expert advice.
+
+::: {.callout type='default'}
+## Empirical evidence 
+Source of information matters: Walter & Xue (2024) find individuals believe information aligning with pre-existing views.
+Accurate knowledge helps individuals adopt appropriate behaviors (Baumgartner, 2023; Fadel et al., 2021).
+:::
+
+## Cultural factors
+- Religion
+- Etc
+
+## Institutional & political factors 
+`Institutional trust` (Fukuyama, 1995): High-trust societies show higher compliance, independent of financial constraints or personal risk perceptions.
+
+::: {.callout type='default'}
+## Empirical evidence 
+Government policy & enforcement: Countries with higher institutional trust exhibited greater compliance across income levels.
+:::
+
+# Theoretical Frameworks that (don't) connect these factors
+## Frameworks: Theory of plnned behaviour
+![REFERENCE/SOURCE](media/figure_1._theory_planned_behavior_model_adapted_from_ajzen_2005._456.webp)
+
+## Frameworks: Health Belief Model
+![REFERENCE/SOURCE](media/Health_belief_model_diagram.jpg)
+
+# Chapter: Comparative structural modelling to inform a theory of pandemic behaviour
+## What: Comparing and Extending TPB & HBM
+::: columns
+::: {.column width="35%"}
+- Some studies used HBM `OR` TPB to analyse survey data
+- Only REFERENCE in LMIC (Looking at students in Turkey)
+- No paper integrating/ extending these in C19 in LMIC
+- No study comparing different geographical contexts
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="62%"}
+![](media/Screenshot%202025-03-04%20at%2021.02.23.png)
+:::
+:::
+
+## Where: Global comparison
+### Comparing contexts across Africa, Latin America, Asia
+
+## How: Structural Equation Modelling I
+
+### Structural Equation Modelling
+- Statistical technique that models complex relationships between observed (measured) and latent (unobserved) variables
+  - Allows simultaneous estimation of direct and indirect effects in predicting preventive behavior
+- Direct, indirect, and total effects analysed for all models
+- Conducted at different waves for robustness checks and comparison
+
+## How: Structural Equation Modelling II
+
+
+### Confirmatory Factor Analysis (CFA) 
+- To validate latent constructs
+- To operationalise constructs from survey items
+
+### Comparative Model Evaluation
+- Predictive power assessment (variance explained in preventative behavior)
+- Multi-group SEM for cross-country/SES/gender comparisons
+- Akaike Information Criterion (AIC) & Bayesian Information Criterion (BIC) for model comparison
+
+
+## With: Meta/MIT C19 preventative health survey
+### Data
+- Conducted via online surveys distributed to Facebook users globally
+- Over 100k observations across 78 countries
+- Weighted to account for probability of being FB user
+- Contains data on all aforementioned factors
+- Repeated cross sectional survey
+
+## Why: Contributions
+### Emprical contribution
+- First large scale SEM across countries and waves
+- Qunatification of uncertainity and relative importance of factors
+
+### Theoretical Contribution
+- Informing more comprehensive framework of pandemic behaviour
+
+### Policy relevance
+- Informs more efficient data collections during early phases of emergencies
+- Informs ressource allocation efficiency
+
+# Chapter: Income vs health preservation
+## What: Testing the trade-off assumption
+### Widely assumed trade-off that `individuals` face
+- Rationale behind cash transfer programmes
+- Supported by economic theory
+  - Grossman (19X)
+  - Prospect Theory
+- Empirical eveidence shows
+  - Effects of income
+  - Effects of risk perceptions
+- Income and risk perception never modelled together in causal way
+
+## What II: Hypotheses
+### H1(2): Economic vulnerability (health risk perceptions) predict compliance.
+### H3: Individuals face a trade-off between preserving their health and their economic security.
+
+## Where: Malawi during waves 1 & 2 of C19
+![](media/Malawitimeline.png)
+
+
+## How: Challenges of traditional econometric approaches I
+
+![](media/Screenshot%202025-03-04%20at%2021.02.23.png)
+
+## How: Challenges of traditional econometric approaches II
+### Strengths
+- Interpretability
+- Causal pathway identification
+
+### Limitations
+- Exogeneity concerns
+  - Either RCT or
+  - Quasiexperimental approach difficult with income
+  - Controlling requires many functional assumptions
+
+## How: Challenges of machine learning
+### Strengths
+- Very flexible re functional forms
+- Can handle large amounts of covariates
+
+### Limitations
+- Overfitting concerns
+- Causal pathway interpretation challenging
+
+## How: Double Debiased Machine Learning
+### Flexible ML to model covariate effect on treatment & outcome
+- Predict outcome/ treatment seperately given vector of covariates using ML methods
+
+### Orthogonalised regression on residuals to estimate causal effect of treatment and outcome
+- *leftover variation of `treatemnt`* -> *leftover variation of `outcome`* 
+  - Given no OVB
+- Based on Neyman (19XX)
+
+
+## How: Double Debiased Machine Learning II
+### Cross-fitting to reduce overfitting and regularization bias
+![](media/dmlcrossfit.png)
+
+## With: Malawi High Frequency Phone Survey
+### World Bank Malawi high frequency phone survey between 2020 and 2024
+- Subset: 05/20-07/21
+  - Only the first 13 rounds contain information about non-pharmaceutical mitigation behaviour
+- Nationally representative sample of households based on the Malawi National Integrated Household Panel Survey from 2019
+- 1729 participants at baseline & 8% attrition at R13
+- Further weighting based on census data
+
+## Why: Contributions
+### Emprical contribution
+- First causal investigation into health/income trade-off in context of protective measures during a pandemic
+- Qunatification of trade-off and comparison over time
+
+### Theoretical Contribution
+- Empirical test of widely-assumed trade-off assumption
+
+### Policy relevance
+- Informs more efficient data collections during early phases of emergencies
+- Informs ressource allocation efficiency
+
+
+
+# Chapter: Peer effects vs self selection
