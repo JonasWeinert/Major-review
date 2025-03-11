@@ -126,9 +126,15 @@ TITLE-ABS-KEY(
   - Older adults, due to higher risk perception, tend to comply more with guidelines [22†L346-L354][22†L347-L355].
   - Women exhibit higher compliance than men [25†L651-L658].
   - Higher education correlates with better understanding of COVID-19 transmission and increased adherence [25†L649-L657].
-- `Economic and Informational Factors`
-  - Lower-income groups often faced economic constraints that reduced their ability to comply [60†L161-L169].
+- `Informational Factors`
   - Reliable knowledge from public health sources spurred early adoption of measures, whereas misinformation (*infodemic*) undermined compliance [25†L659-L667][28†L243-L251].
+
+## Individuals face a trade-off between life and livelihood
+- `Economic Imperatives vs. Health Preservation`
+  - Individuals must often choose between immediate economic survival (working despite risks) and protecting their health by complying with mitigation measures.
+  - Lower-income groups often faced economic constraints that reduced their ability to comply [60†L161-L169].
+  - Studies (e.g., Chetty et al., Papageorge et al.) show that financially constrained individuals are more likely to forgo compliance measures in favor of income security.
+- If true, i LMICs, where economic vulnerability is pronounced, the trade-off between life (health) and livelihood becomes even more critical
 
 ## Cultural Factors
 - `Individualism vs. Collectivism`
