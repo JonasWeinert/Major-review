@@ -185,6 +185,8 @@ RQ: What are the core mechanisms and interactions through which economic, socio-
 
 ## Background & Gaps
 
+### Different factors interact and shape behaviour **together**
+
 ::: columns
 ::: {.column width="48%"}
 - Some studies use theoretical frameworks (HBM `OR` TPB) to analyse survey data
