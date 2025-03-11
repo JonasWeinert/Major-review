@@ -1,0 +1,201 @@
+\frametitle{Annex II Chapter 2}
+\phantomsection\label{annex-ii-chapter-2}
+\begin{block}{Annex: Chapter II BG: Malawi during waves 1 \& 2 of C19}
+\phantomsection\label{annex-chapter-ii-bg-malawi-during-waves-1-2-of-c19}
+\pandocbounded{\includegraphics[keepaspectratio]{media/Malawitimeline.png}}
+\end{block}
+
+\begin{block}{Annex: Chapter II How: Outcomes}
+\phantomsection\label{annex-chapter-ii-how-outcomes}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2075}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.4528}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1698}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1698}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\texttt{Outcome}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Indicators
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Investigation at
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Hypothesis tests
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\textbf{\texttt{Social\ distancing}} & Gathering attendance;
+non-essential travels; Reduced Shopping & Multiple rounds & H1, H2,
+H3 \\
+\textbf{\texttt{Hygiene\ \&\ Mask}} & Hand Washing; Mask Wearing &
+Single Round & H2 \\
+\textbf{\texttt{Willingness\ to\ test}}* & Willingness to test & Single
+Round & H1 \\
+\textbf{\texttt{Vaccine\ Acceptance*}} & Willingness to vaccinate &
+Single round & H1 \\
+\bottomrule\noalign{}
+\end{longtable}
+
+*Vaccines and tests are provided for free but involve significant
+transaction and opportunity costs. Reddy, K.P., Fitzmaurice, K.P.,
+Scott, J.A. et al.~Clinical outcomes and cost-effectiveness of COVID-19
+vaccination in South Africa. Nat Commun 12, 6238 (2021)
+\end{block}
+
+\begin{block}{Annex: Chapter II How: Treatments I}
+\phantomsection\label{annex-chapter-ii-how-treatments-i}
+\begin{block}{Economic Vulnerability Indicator}
+\phantomsection\label{economic-vulnerability-indicator}
+\begin{itemize}
+\tightlist
+\item
+  Constructed from factors such as:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Current income
+  \item
+    Self-reported economic stability perception
+  \item
+    Economic risk perception due to the pandemic
+  \item
+    Main income source (formal vs.~informal economy)
+  \item
+    Consumption quantile (based on monthly spending)
+  \end{itemize}
+\item
+  Operationalization methods under consideration:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Inverse Probability Weighting (IPW) by Anderson
+  \item
+    Established economic vulnerability measures (e.g., Calvo \& Dercon,
+    2005)
+  \item
+    Data-driven approach (PCA or single factor analysis)
+  \end{itemize}
+\end{itemize}
+\end{block}
+\end{block}
+
+\begin{block}{Annex: Chapter II How: Treatments II}
+\phantomsection\label{annex-chapter-ii-how-treatments-ii}
+\begin{block}{Health Risk Perception Indicator}
+\phantomsection\label{health-risk-perception-indicator}
+\begin{itemize}
+\tightlist
+\item
+  Self-reported health risk perception
+\item
+  Infection history and self-reported comorbidities
+\item
+  Recent Covid-19 symptoms
+\end{itemize}
+\end{block}
+
+\begin{block}{Trade-off as interaction term}
+\phantomsection\label{trade-off-as-interaction-term}
+\end{block}
+\end{block}
+
+\begin{block}{Annex: Chapter II How: Controlling for \ldots{}}
+\phantomsection\label{annex-chapter-ii-how-controlling-for}
+\begin{itemize}
+\tightlist
+\item
+  Demographics (Age, gender, education, urban/rural, etc.)
+\item
+  Cultural affiliations and beliefs (religion, parties, norms, etc.)
+\item
+  HH characteristics (size, adult equiv., etc.)
+\item
+  Exposure to C19
+\item
+  Trust in institutions \& conspiracy beliefs
+\item
+  Mental health
+\item
+  Macro context (policies, economic performance, etc.)
+\item
+  And some more (self-efficacy, C19 communication exposure, news
+  consumption, etc.)
+\end{itemize}
+\end{block}
+
+\begin{block}{Annex: Chapter II How: Challenges of traditional
+econometric approaches I}
+\phantomsection\label{annex-chapter-ii-how-challenges-of-traditional-econometric-approaches-i}
+\pandocbounded{\includegraphics[keepaspectratio]{media/Screenshot 2025-03-04 at 21.02.23.png}}
+\end{block}
+
+\begin{block}{Annex: Chapter II How: Challenges of traditional
+econometric approaches II}
+\phantomsection\label{annex-chapter-ii-how-challenges-of-traditional-econometric-approaches-ii}
+\begin{block}{Strengths}
+\phantomsection\label{strengths}
+\begin{itemize}
+\tightlist
+\item
+  Interpretability
+\item
+  Causal pathway identification
+\end{itemize}
+\end{block}
+
+\begin{block}{Limitations}
+\phantomsection\label{limitations}
+\begin{itemize}
+\tightlist
+\item
+  Exogeneity concerns
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Either RCT or
+  \item
+    Quasiexperimental approach difficult with income
+  \item
+    Controlling requires many functional assumptions
+  \end{itemize}
+\end{itemize}
+\end{block}
+\end{block}
+
+\begin{block}{Annex: Chapter II How: Challenges of machine learning}
+\phantomsection\label{annex-chapter-ii-how-challenges-of-machine-learning}
+\begin{block}{Strengths}
+\phantomsection\label{strengths-1}
+\begin{itemize}
+\tightlist
+\item
+  Very flexible re functional forms
+\item
+  Can handle large amounts of covariates
+\end{itemize}
+\end{block}
+
+\begin{block}{Limitations}
+\phantomsection\label{limitations-1}
+\begin{itemize}
+\tightlist
+\item
+  Overfitting concerns
+\item
+  Causal pathway interpretation challenging
+\end{itemize}
+\end{block}
+\end{block}
+
+\begin{block}{Annex: Chapter II How: Double Debiased Machine Learning
+II}
+\phantomsection\label{annex-chapter-ii-how-double-debiased-machine-learning-ii}
+\begin{block}{Cross-fitting to reduce overfitting and regularization
+bias}
+\phantomsection\label{cross-fitting-to-reduce-overfitting-and-regularization-bias}
+\pandocbounded{\includegraphics[keepaspectratio]{media/dmlcrossfit.png}}
+\end{block}
+\end{block}

@@ -23,11 +23,15 @@ embed-resources: true
 
 # Introduction
 
+---
+
 ## Research Question {background="#43464B"}
 
+---
 
 ### How do `dynamic interactions` among diverse behavioural determinants shape public health `compliance` during infectious disease outbreaks in LMICs?
 
+--- 
 
 ## Relevance: Global & Policy Relevance
 ### Pandemic Impact  in LMICs
@@ -35,6 +39,8 @@ embed-resources: true
 - COVID-19 exposed complex challenges in public health compliance, `especially in low- and middle-income countries`.
 - LMICs face unique socio-economic and institutional hurdles not fully captured by HIC-focused research.
 - A better understanding of behavioural drivers is critical to design effective, context-specific public health interventions.
+
+--- 
 
 ## Relevance: Enabling better policy making
 
@@ -166,12 +172,12 @@ C3: NPI
 :::
 
 
-# Theoretical Frameworks that (don't) connect these factors
+<!-- # Theoretical Frameworks that (don't) connect these factors
 ## Frameworks: Theory of plnned behaviour
 ![REFERENCE/SOURCE](media/figure_1._theory_planned_behavior_model_adapted_from_ajzen_2005._456.webp)
 
 ## Frameworks: Health Belief Model
-![REFERENCE/SOURCE](media/Health_belief_model_diagram.jpg)
+![REFERENCE/SOURCE](media/Health_belief_model_diagram.jpg) -->
 
 # Chapter I: Comparative structural modelling to inform a theory of pandemic behaviour
 
