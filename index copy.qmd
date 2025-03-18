@@ -2,10 +2,7 @@
 title: Understanding public health compliance in emergencies
 subtitle: An investigation of the heterogeneity and pathways of factors that shape our behaviour during public health crises in LMICs
 format: 
-  metropolis-beamer-revealjs:
-    theme: theme.scss
-    margin: 0
-    padding: 0
+  beamer
 
 # header-logo: images/rstudio.png
 # header-logo-link: "https://posit.co/"
@@ -24,6 +21,8 @@ embed-resources: true
 ---
 
 # Introduction
+---
+
 
 ## Relevance: Global & Policy Relevance
 ### Pandemic Impact  in LMICs
@@ -31,6 +30,8 @@ embed-resources: true
 - COVID-19 exposed complex challenges in public health compliance, `especially in low- and middle-income countries`.
 - LMICs face unique socio-economic and institutional hurdles not fully captured by HIC-focused research.
 - A better understanding of behavioural drivers is critical to design effective, context-specific public health interventions.
+---
+
 
 
 ## Relevance: Enabling better policy making
@@ -49,10 +50,15 @@ embed-resources: true
 
 Yonatan Grad, `Harvard T.H. Chan School of Public Health`
 
+---
+
+
 ## Research Question {background="#43464B"}
 
 
 ### How do `dynamic interactions` among diverse behavioural determinants shape public health `compliance` during infectious disease outbreaks in LMICs?
+
+---
 
 
 <!-- ## Why {background="#43464B"}
@@ -68,6 +74,8 @@ Yonatan Grad, `Harvard T.H. Chan School of Public Health`
   - Causal links esp in LMICs -->
 
 # Literature Review
+---
+
 
 ## Literature search strategy
 
@@ -87,6 +95,8 @@ Yonatan Grad, `Harvard T.H. Chan School of Public Health`
 :::
 :::
 
+---
+
 
 ## Peers, Social Cohesion & Norms I
 - `Peer Influence and Group Identity`
@@ -95,6 +105,8 @@ Yonatan Grad, `Harvard T.H. Chan School of Public Health`
 - `Community Trust & Norms`
   - Tight-knit communities facilitate adherence to health measures [@gelfandRelationshipCulturalTightness2021].
   - Partisan identities and in-group norms can override other favtors, leading to selective compliance or even counter-normative behavior [@nairCultureCOVID19Impact2022].
+---
+
 
 ## Peers, Social Cohesion & Norms II
 - `Individualism vs. Collectivism`
@@ -103,6 +115,8 @@ Yonatan Grad, `Harvard T.H. Chan School of Public Health`
   - High power-distance cultures readily accepted top-down mandates [@alvarez-galvezImpactGovernmentActions2023]
   - Societies characterized by cultural tightness enforced uniform adherence through strict norms [@nevilleSocialNormsSocial2021; @gelfandRelationshipCulturalTightness2021].
   - Some resisted restrictions citing religious freedom [@filsingerAsymmetricAffectivePolarization2024].
+---
+
 
 ## Health risk perceptions, knowledge & trust
 
@@ -111,6 +125,8 @@ Yonatan Grad, `Harvard T.H. Chan School of Public Health`
 - `Knowledge influences risk percetions`
   - Reliable knowledge from public health sources spurred early adoption of measures, whereas misinformation (*infodemic*) undermined compliance [@ferreiracaceresImpactMisinformationCOVID192022].
   - Trust in institutions [@heAssociationPublicTrust2022] & information source consumption [@mohammedPerceivedBarriersFacilitators2021] mediate relationship between knowledge and perception.
+---
+
 
 
 ## Trade-offs between life and livelihood
@@ -119,6 +135,8 @@ Yonatan Grad, `Harvard T.H. Chan School of Public Health`
   - Lower-income groups often faced economic constraints that reduced their ability to comply [@stevensExperiencesSociallyVulnerable2021].
   - Studies show that financially constrained individuals are more likely to forgo compliance measures in favor of income security [@miftodeInfluenceSocioeconomicStatus2021; @xiongInteractingParticleModels2024].
 - If true, in LMICs, where economic vulnerability is pronounced, the trade-off between life (health) and livelihood becomes even more critical
+---
+
 
 ## Institutional context, partisanship, and other factors
 
@@ -127,6 +145,8 @@ Yonatan Grad, `Harvard T.H. Chan School of Public Health`
 - In highly political contexts, partisanship can override other factors [see e.g. @govindSellingHopeHate2024; @filsingerAsymmetricAffectivePolarization2024].
 - Demographic factors sometimes also predictors. E.g. gender [see @zucolotoPanoramaCOVID19Risk2022]; Age [@zuInvestigatingRelationshipReopening2021]
   - But highly correlated with other factors (like risk perception, attitudes, etc.)
+---
+
 
 
 ## Gaps I 
@@ -135,6 +155,8 @@ Yonatan Grad, `Harvard T.H. Chan School of Public Health`
 - Unclear whether group/ network effects are driven by self-selection into groups
 - Some descriptive insights from self-reported reasons for behaviour
 - Evidence from influenza suggest *pure* peer effects in vaccination behaviour [@miyazatoPeerEffectsInfluenza2024b]
+
+---
 
 
 ## Gaps II
@@ -145,6 +167,8 @@ Yonatan Grad, `Harvard T.H. Chan School of Public Health`
   - Most studies on role of economic status done in HICs
   - Not yet modelled together and isolated from other factors that might *override* trade-off
   - Some WTP insights for vaccines [e.g. @catmaWillingnessPayHypothetical2021], but no quantification of impact of health risk perceptions **relative to economic vulnerability** and vice versa on NPI behaviour
+
+---
 
 
 ## Gaps III
@@ -160,11 +184,7 @@ Yonatan Grad, `Harvard T.H. Chan School of Public Health`
   - Exclusively single country, single time-period studies
 
 
-
-
-
-
-
+---
 
 ## Aims & research frameworks
 
@@ -179,6 +199,8 @@ C1 & C2: Both NPI and vaccines
 C3: NPI
 :::
 
+---
+
 
 <!-- # Theoretical Frameworks that (don't) connect these factors
 ## Frameworks: Theory of plnned behaviour
@@ -191,6 +213,9 @@ C3: NPI
 
 RQ: What are the mechanisms and interactions through which economic, socio-cultural, institutional, and psychological determinants shape individual compliance with public health measures during pandemics in LMICs?
 
+---
+
+
 ## Background & Gaps I
 
 ### Different factors interact and shape behaviour **together**
@@ -200,10 +225,14 @@ RQ: What are the mechanisms and interactions through which economic, socio-cultu
 - No paper integrating/ extending these in Covid 19 in LMIC
 - No study comparing different geographical contexts
 - No comparison of NPI and vaccines
+---
+
 
 ## Background & Gaps II
 
 ![](media/Screenshot%202025-03-04%20at%2021.02.23.png)
+---
+
 
 
 ## Data
@@ -215,6 +244,8 @@ RQ: What are the mechanisms and interactions through which economic, socio-cultu
 - Contains data on all aforementioned factors
 - Repeated cross sectional survey
 - Requesred & granted. Currently correspondence between LSE Datalibrary and MIT.
+---
+
 
 ## Methods I
 
@@ -232,6 +263,8 @@ GLM: small sample but requires normal distributions
 GLS: needs large sample but more flexible to distributoions
 Bayes: requires priors
 :::
+---
+
 
 ## Methods II
 
@@ -242,6 +275,8 @@ Bayes: requires priors
 - Conduct at different waves for robustness checks and comparison  
   - Evaluation of goodness of fit between HBM, TPB, extended and integrated version using AIC/BIC
   - Evaluation of overfitting via multi-round application of estimated parameters and assesment of goodnes of fit variation 
+---
+
 
 
 ## Expected Contributions
@@ -256,9 +291,13 @@ Bayes: requires priors
 ### Policy relevance
 - Informs more efficient data collections during early phases of emergencies
 - Informs ressource allocation efficiency
+---
+
 
 # Chapter II: Qunatifying the health-income trade-off assumption
 RQ: What is the relative importance of economic constraints and health risk perceptions on compliance with public health measures?
+---
+
 
 ## Background & Gaps
 ### Widely assumed trade-off between income an health that `individuals` face
@@ -268,11 +307,15 @@ RQ: What is the relative importance of economic constraints and health risk perc
   - Effects of income [e.g. @stevensExperiencesSociallyVulnerable2021]
   - Effects of risk perceptions [e.g. @bazrafshanHealthRiskCommunication2023]
 - Income and risk perception never modelled together to confirm `trade-off` in causal way
+---
+
 
 ## Hypotheses
 
 ### H1(2): Economic vulnerability (health risk perceptions) predict compliance.
 ### H3: Individuals face a trade-off between preserving their health and their economic security.
+---
+
 
 ## Data
 ### World Bank Malawi high frequency phone survey between 2020 and 2024
@@ -281,6 +324,8 @@ RQ: What is the relative importance of economic constraints and health risk perc
 - Nationally representative sample of households based on the Malawi National Integrated Household Panel Survey from 2019
 - 1729 participants at baseline & 8% attrition at R13
 - Further weighting based on census data
+---
+
 
 ## Methods: Double Debiased Machine Learning I
 
@@ -294,6 +339,8 @@ RQ: What is the relative importance of economic constraints and health risk perc
   - Delineating different factor's distinct influence challenging.
   - Estimates difficult to interpret due to (often) non-tracable data trahsformations.
 
+---
+
 
 ## Methods: Double Debiased Machine Learning II
 
@@ -304,6 +351,8 @@ RQ: What is the relative importance of economic constraints and health risk perc
   - Estimate = Causal effect of treatment on outcome
   - Based orthogonalization proposed by @neymanConsistentEstimatesBased1948
 
+
+---
 
 
 
@@ -319,29 +368,51 @@ RQ: What is the relative importance of economic constraints and health risk perc
 - Informs more efficient data collections during early phases of emergencies
 - Informs ressource allocation efficiency
 
+---
+
 
 
 # Chapter: The role of peer effects on vaccination intentions
 RQ: What is the effect of membership in non self-selected peer groups on vaccination intentions? 
+---
+
 
 ## Background & Gaps
+---
+
 
 ## Methods
+---
+
 
 ## Data
+---
+
 
 ## Expected Contributions
+---
+
 
 ### Emprical contribution
+---
+
 
 
 ### Theoretical Contribution
+---
+
 
 ### Policy relevance
+---
+
 
 # Thank you!
+---
+
 
 # Questions & Feedback
+---
+
 
 ## Annex: Literature search strategy II: Search string
 
@@ -361,10 +432,14 @@ TITLE-ABS-KEY(
     OR "peer effect*" OR "media influence*" OR politic* OR demographic* OR cultural OR structural OR contextual)
 )
 ```
+---
+
 
 
 
 # Annex I: Chapter I
+---
+
 
 ## Annex: Structural Equation Modelling II (Skip)
 
@@ -376,12 +451,18 @@ TITLE-ABS-KEY(
 - Predictive power assessment (variance explained in preventative behavior)
 - Multi-group SEM for cross-country/SES/gender comparisons
 - Akaike Information Criterion (AIC) & Bayesian Information Criterion (BIC) for model comparison
+---
+
 
 # Annex II Chapter 2
+---
+
 
 
 ## Annex: Chapter II BG: Malawi during waves 1 & 2 of C19
 ![](media/Malawitimeline.png)
+---
+
 
 ## Annex: Chapter II How: Outcomes
 | `Outcome`              | Indicators                                        | Investigation at  | Hypothesis tests  |
@@ -392,6 +473,8 @@ TITLE-ABS-KEY(
 | **`Vaccine Acceptance*`** | Willingness to vaccinate                      | Single round    | H1               |
 
 *Vaccines and tests are provided for free but involve significant transaction and opportunity costs. Reddy, K.P., Fitzmaurice, K.P., Scott, J.A. et al. Clinical outcomes and cost-effectiveness of COVID-19 vaccination in South Africa. Nat Commun 12, 6238 (2021)
+---
+
 
 ## Annex: Chapter II How: Treatments I
 
@@ -406,6 +489,8 @@ TITLE-ABS-KEY(
   - Inverse Probability Weighting (IPW) by Anderson
   - Established economic vulnerability measures (e.g., Calvo & Dercon, 2005)
   - Data-driven approach (PCA or single factor analysis)
+---
+
 
 ## Annex: Chapter II How: Treatments II
 
@@ -415,6 +500,8 @@ TITLE-ABS-KEY(
 - Recent Covid-19 symptoms
 
 ### Trade-off as interaction term
+---
+
 
 ## Annex: Chapter II How: Controlling for ...
 - Demographics (Age, gender, education, urban/rural, etc.)
@@ -426,6 +513,8 @@ TITLE-ABS-KEY(
 - Macro context (policies, economic performance, etc.)
 - And some more (self-efficacy, C19 communication exposure, news consumption, etc.)
 
+
+---
 
 
 
@@ -443,6 +532,8 @@ TITLE-ABS-KEY(
   - Either RCT or
   - Quasiexperimental approach difficult with income
   - Controlling requires many functional assumptions
+---
+
 
 ## Annex: Chapter II How: Challenges of machine learning
 ### Strengths
@@ -453,6 +544,8 @@ TITLE-ABS-KEY(
 - Overfitting concerns
 - Causal pathway interpretation challenging
 
+---
+
 
 
 ## Annex: Chapter II How: Double Debiased Machine Learning II
@@ -460,3 +553,5 @@ TITLE-ABS-KEY(
 ![](media/dmlcrossfit.png)
 
 # Annex III Chapter 3
+---
+

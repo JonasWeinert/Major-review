@@ -19,7 +19,7 @@ $presentation-slide-text-align: left !default;
 $code-block-font-size: 0.60em !default;
 
 $primary-color: #23373b !default;
-$secondary-color: #EB811B !default;
+$secondary-color: rgba(231, 0, 0, 1) !default;
 $body-fg-color: #33474b !default;
 $alert-color: #9c162a !default;
 $example-color: #14B03D !default;
@@ -215,6 +215,11 @@ $authors-block-gap: 4em !default;
     max-width: max(80px, 12vw);
     max-height: max(80px, 12vh);
   }
+
+  .reveal {
+    width: 100%;
+    max-width: 100%;
+}
 
   img {
     display: block;
