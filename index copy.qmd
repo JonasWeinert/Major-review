@@ -2,7 +2,7 @@
 title: Understanding public health compliance in emergencies
 subtitle: An investigation of the heterogeneity and pathways of factors that shape our behaviour during public health crises in LMICs
 format: 
-  beamer
+  pptx
 
 # header-logo: images/rstudio.png
 # header-logo-link: "https://posit.co/"
